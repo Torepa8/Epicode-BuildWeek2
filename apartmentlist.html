@@ -12,19 +12,24 @@
 
 <body class="m-3">
     <header>
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <div>
+                <div class="flex-grow-1">
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/logo-pink.png" width="80" height="40" class="flex-grow-1" alt="Bootstrap">
                     </a>
                 </div>
-                <div class="d-flex align-items-center">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+                <div class="d-flex flex-column flex-lg-row align-items-center">
                     <a class="navbar-brand pointer m-2 px-2 py-1 fs-6" href="#"> Become a host</a>
                     <img src="assets/globe2.svg" class="px-2 m-2 py-1 pointer" alt="">
                     <img src="assets/list.svg" class="mx-2 px-2 py-1 pointer" alt="">
                     <img src="assets/person-circle.svg" class="mx-2 px-2 py-1 pointer" alt="">
                 </div>
+            </div>
             </div>
         </nav>
 
